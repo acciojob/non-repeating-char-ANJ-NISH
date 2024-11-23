@@ -8,9 +8,10 @@ function firstNonRepeatedChar(str) {
 			{
 				return str.charAt(i);
 			}
+			arr.push(str.charAt(i));
 		}
 
 	return null;
 }
-const input = prompt("Enter a string");
-alert(firstNonRepeatedChar(input)); 
+// const input = prompt("Enter a string");
+// alert(firstNonRepeatedChar(input)); 
